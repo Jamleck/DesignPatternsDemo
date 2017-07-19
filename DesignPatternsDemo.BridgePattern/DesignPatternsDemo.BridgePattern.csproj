@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A69BB871-010F-4917-8442-C3AF1C5A08FE}</ProjectGuid>
+    <ProjectGuid>{4BC5B014-1788-4B2C-9EAF-101E2A245716}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DesignPatternsDemo.AbstractFactoryPattern</RootNamespace>
-    <AssemblyName>DesignPatternsDemo.AbstractFactoryPattern</AssemblyName>
+    <RootNamespace>DesignPatternsDemo.BridgePattern</RootNamespace>
+    <AssemblyName>DesignPatternsDemo.BridgePattern</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,23 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory.cs" />
-    <Compile Include="AbstractFactoryPatternDemo.cs" />
-    <Compile Include="Blue.cs" />
+    <Compile Include="BridgePatternDemo.cs" />
     <Compile Include="Circle.cs" />
-    <Compile Include="ColorFactory.cs" />
-    <Compile Include="FactoryProducer.cs" />
-    <Compile Include="Green.cs" />
-    <Compile Include="IColor.cs" />
-    <Compile Include="IShape.cs" />
+    <Compile Include="GreenCircle.cs" />
+    <Compile Include="IDrawApi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
-    <Compile Include="Red.cs" />
-    <Compile Include="ShapeFactory.cs" />
-    <Compile Include="Square.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="AbstractFactoryClassDiagram.cd" />
+    <Compile Include="RedCircle.cs" />
+    <Compile Include="Shape.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatternsDemo.Core\DesignPatternsDemo.Core.csproj">

@@ -54,6 +54,18 @@
       <Project>{A69BB871-010F-4917-8442-C3AF1C5A08FE}</Project>
       <Name>DesignPatternsDemo.AbstractFactoryPattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DesignPatternsDemo.AdapterPattern\DesignPatternsDemo.AdapterPattern.csproj">
+      <Project>{7C4B0802-3160-4D3C-A4DE-A282255A0C96}</Project>
+      <Name>DesignPatternsDemo.AdapterPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatternsDemo.BridgePattern\DesignPatternsDemo.BridgePattern.csproj">
+      <Project>{4BC5B014-1788-4B2C-9EAF-101E2A245716}</Project>
+      <Name>DesignPatternsDemo.BridgePattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatternsDemo.Core\DesignPatternsDemo.Core.csproj">
+      <Project>{0F8B3AB2-3B54-490E-BF6C-746BEE7BF9AC}</Project>
+      <Name>DesignPatternsDemo.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

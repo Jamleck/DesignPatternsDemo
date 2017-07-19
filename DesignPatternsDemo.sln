@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsDemo.Abstract
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsDemo.ConsoleUI", "DesignPatternsDemo.ConsoleUI\DesignPatternsDemo.ConsoleUI.csproj", "{EBA8BAA6-4189-49F5-BCE2-19BE57DCC17A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsDemo.AdapterPattern", "DesignPatternsDemo.AdapterPattern\DesignPatternsDemo.AdapterPattern.csproj", "{7C4B0802-3160-4D3C-A4DE-A282255A0C96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsDemo.BridgePattern", "DesignPatternsDemo.BridgePattern\DesignPatternsDemo.BridgePattern.csproj", "{4BC5B014-1788-4B2C-9EAF-101E2A245716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsDemo.Core", "DesignPatternsDemo.Core\DesignPatternsDemo.Core.csproj", "{0F8B3AB2-3B54-490E-BF6C-746BEE7BF9AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{EBA8BAA6-4189-49F5-BCE2-19BE57DCC17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA8BAA6-4189-49F5-BCE2-19BE57DCC17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA8BAA6-4189-49F5-BCE2-19BE57DCC17A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4B0802-3160-4D3C-A4DE-A282255A0C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4B0802-3160-4D3C-A4DE-A282255A0C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4B0802-3160-4D3C-A4DE-A282255A0C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4B0802-3160-4D3C-A4DE-A282255A0C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC5B014-1788-4B2C-9EAF-101E2A245716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC5B014-1788-4B2C-9EAF-101E2A245716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC5B014-1788-4B2C-9EAF-101E2A245716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC5B014-1788-4B2C-9EAF-101E2A245716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8B3AB2-3B54-490E-BF6C-746BEE7BF9AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8B3AB2-3B54-490E-BF6C-746BEE7BF9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8B3AB2-3B54-490E-BF6C-746BEE7BF9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8B3AB2-3B54-490E-BF6C-746BEE7BF9AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

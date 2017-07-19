@@ -1,21 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DesignPatternsDemo.AbstractFactoryPattern;
+using DesignPatternsDemo.AdapterPattern;
+using DesignPatternsDemo.BridgePattern;
+using DesignPatternsDemo.Core;
 
 namespace DesignPatternsDemo.ConsoleUI
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-
             var abstractFactoryPatternDemo = new AbstractFactoryPatternDemo();
-            abstractFactoryPatternDemo.Demo();
+            RunDemo(abstractFactoryPatternDemo);
+
+            var adapterPatternDemo = new AdapterPatternDemo();
+            RunDemo(adapterPatternDemo);
+
+            var bridgePatternDemo = new BridgePatternDemo();
+            RunDemo(bridgePatternDemo);
 
             Console.Read();
+        }
+
+        private static void RunDemo(IDemo demo)
+        {
+            demo.Demo();
+
+            Console.WriteLine();
         }
     }
 }
