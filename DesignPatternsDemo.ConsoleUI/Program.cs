@@ -2,6 +2,8 @@
 using DesignPatternsDemo.AbstractFactoryPattern;
 using DesignPatternsDemo.AdapterPattern;
 using DesignPatternsDemo.BridgePattern;
+using DesignPatternsDemo.BuilderPattern;
+using DesignPatternsDemo.ChainOfResponsibilityPattern;
 using DesignPatternsDemo.Core;
 
 namespace DesignPatternsDemo.ConsoleUI
@@ -18,6 +20,12 @@ namespace DesignPatternsDemo.ConsoleUI
 
             var bridgePatternDemo = new BridgePatternDemo();
             RunDemo(bridgePatternDemo);
+
+            var builderPatternDemo = new BuilderPatternDemo();
+            RunDemo(builderPatternDemo);
+
+            var chainOfResponsibilityDemo = new ChainOfResponsibilityDemo();
+            RunDemo(chainOfResponsibilityDemo);
 
             Console.Read();
         }

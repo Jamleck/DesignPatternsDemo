@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EBA8BAA6-4189-49F5-BCE2-19BE57DCC17A}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{68D3018B-80E0-4DC5-804D-25157C523A3E}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DesignPatternsDemo.ConsoleUI</RootNamespace>
-    <AssemblyName>DesignPatternsDemo.ConsoleUI</AssemblyName>
+    <RootNamespace>DesignPatternsDemo.BuilderPattern</RootNamespace>
+    <AssemblyName>DesignPatternsDemo.BuilderPattern</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,33 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Bottle.cs" />
+    <Compile Include="BuilderPatternDemo.cs" />
+    <Compile Include="Burger.cs" />
+    <Compile Include="ChickenBurger.cs" />
+    <Compile Include="ColdDrink.cs" />
+    <Compile Include="IItem.cs" />
+    <Compile Include="IPackaging.cs" />
+    <Compile Include="Meal.cs" />
+    <Compile Include="MealBuilder.cs" />
+    <Compile Include="Pepsi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VegBurger.cs" />
+    <Compile Include="Water.cs" />
+    <Compile Include="Wrapper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DesignPatternsDemo.AbstractFactoryPattern\DesignPatternsDemo.AbstractFactoryPattern.csproj">
-      <Project>{A69BB871-010F-4917-8442-C3AF1C5A08FE}</Project>
-      <Name>DesignPatternsDemo.AbstractFactoryPattern</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DesignPatternsDemo.AdapterPattern\DesignPatternsDemo.AdapterPattern.csproj">
-      <Project>{7C4B0802-3160-4D3C-A4DE-A282255A0C96}</Project>
-      <Name>DesignPatternsDemo.AdapterPattern</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DesignPatternsDemo.BridgePattern\DesignPatternsDemo.BridgePattern.csproj">
-      <Project>{4BC5B014-1788-4B2C-9EAF-101E2A245716}</Project>
-      <Name>DesignPatternsDemo.BridgePattern</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DesignPatternsDemo.BuilderPattern\DesignPatternsDemo.BuilderPattern.csproj">
-      <Project>{68D3018B-80E0-4DC5-804D-25157C523A3E}</Project>
-      <Name>DesignPatternsDemo.BuilderPattern</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DesignPatternsDemo.ChainOfResponsibilityPattern\DesignPatternsDemo.ChainOfResponsibilityPattern.csproj">
-      <Project>{928B588B-6658-43B0-9C7C-EBDBE4C31524}</Project>
-      <Name>DesignPatternsDemo.ChainOfResponsibilityPattern</Name>
-    </ProjectReference>
     <ProjectReference Include="..\DesignPatternsDemo.Core\DesignPatternsDemo.Core.csproj">
       <Project>{0F8B3AB2-3B54-490E-BF6C-746BEE7BF9AC}</Project>
       <Name>DesignPatternsDemo.Core</Name>
