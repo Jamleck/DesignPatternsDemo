@@ -5,7 +5,9 @@ using DesignPatternsDemo.BridgePattern;
 using DesignPatternsDemo.BuilderPattern;
 using DesignPatternsDemo.ChainOfResponsibilityPattern;
 using DesignPatternsDemo.CommandPattern;
+using DesignPatternsDemo.CompositePattern;
 using DesignPatternsDemo.Core;
+using DesignPatternsDemo.DecoratorPattern;
 
 namespace DesignPatternsDemo.ConsoleUI
 {
@@ -30,6 +32,12 @@ namespace DesignPatternsDemo.ConsoleUI
 
             var commandPatternDemo = new CommandPatternDemo();
             RunDemo(commandPatternDemo);
+
+            var compositePatternDemo = new CompositePatternDemo();
+            RunDemo(compositePatternDemo);
+
+            var decoratorPatternDemo = new DecoratorPatternDemo();
+            RunDemo(decoratorPatternDemo);
 
             Console.Read();
         }

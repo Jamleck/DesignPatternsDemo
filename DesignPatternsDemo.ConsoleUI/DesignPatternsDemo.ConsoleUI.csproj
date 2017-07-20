@@ -74,9 +74,17 @@
       <Project>{AB998C16-F4A5-4A1F-A6BF-DD8668BD1F45}</Project>
       <Name>DesignPatternsDemo.CommandPattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DesignPatternsDemo.CompositePattern\DesignPatternsDemo.CompositePattern.csproj">
+      <Project>{56594B0A-D335-4F82-8FA8-895FA76CDC3B}</Project>
+      <Name>DesignPatternsDemo.CompositePattern</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DesignPatternsDemo.Core\DesignPatternsDemo.Core.csproj">
       <Project>{0F8B3AB2-3B54-490E-BF6C-746BEE7BF9AC}</Project>
       <Name>DesignPatternsDemo.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatternsDemo.DecoratorPattern\DesignPatternsDemo.DecoratorPattern.csproj">
+      <Project>{AC44F1EA-A5FD-440A-A004-619E228A69D6}</Project>
+      <Name>DesignPatternsDemo.DecoratorPattern</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
