@@ -70,6 +70,10 @@
       <Project>{928B588B-6658-43B0-9C7C-EBDBE4C31524}</Project>
       <Name>DesignPatternsDemo.ChainOfResponsibilityPattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DesignPatternsDemo.CommandPattern\DesignPatternsDemo.CommandPattern.csproj">
+      <Project>{AB998C16-F4A5-4A1F-A6BF-DD8668BD1F45}</Project>
+      <Name>DesignPatternsDemo.CommandPattern</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DesignPatternsDemo.Core\DesignPatternsDemo.Core.csproj">
       <Project>{0F8B3AB2-3B54-490E-BF6C-746BEE7BF9AC}</Project>
       <Name>DesignPatternsDemo.Core</Name>

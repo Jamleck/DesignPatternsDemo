@@ -4,6 +4,7 @@ using DesignPatternsDemo.AdapterPattern;
 using DesignPatternsDemo.BridgePattern;
 using DesignPatternsDemo.BuilderPattern;
 using DesignPatternsDemo.ChainOfResponsibilityPattern;
+using DesignPatternsDemo.CommandPattern;
 using DesignPatternsDemo.Core;
 
 namespace DesignPatternsDemo.ConsoleUI
@@ -26,6 +27,9 @@ namespace DesignPatternsDemo.ConsoleUI
 
             var chainOfResponsibilityDemo = new ChainOfResponsibilityDemo();
             RunDemo(chainOfResponsibilityDemo);
+
+            var commandPatternDemo = new CommandPatternDemo();
+            RunDemo(commandPatternDemo);
 
             Console.Read();
         }
