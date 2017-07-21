@@ -86,6 +86,10 @@
       <Project>{AC44F1EA-A5FD-440A-A004-619E228A69D6}</Project>
       <Name>DesignPatternsDemo.DecoratorPattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DesignPatternsDemo.FacadePattern\DesignPatternsDemo.FacadePattern.csproj">
+      <Project>{DDFE87E3-5C94-4648-B63C-9C6227B35E88}</Project>
+      <Name>DesignPatternsDemo.FacadePattern</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

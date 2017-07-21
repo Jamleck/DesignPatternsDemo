@@ -8,6 +8,7 @@ using DesignPatternsDemo.CommandPattern;
 using DesignPatternsDemo.CompositePattern;
 using DesignPatternsDemo.Core;
 using DesignPatternsDemo.DecoratorPattern;
+using DesignPatternsDemo.FacadePattern;
 
 namespace DesignPatternsDemo.ConsoleUI
 {
@@ -39,6 +40,9 @@ namespace DesignPatternsDemo.ConsoleUI
             var decoratorPatternDemo = new DecoratorPatternDemo();
             RunDemo(decoratorPatternDemo);
 
+            var facadePatternDemo = new FacadePatternDemo();
+            RunDemo(facadePatternDemo);
+            
             Console.Read();
         }
 
